@@ -1,10 +1,10 @@
-# 🤖 AI FAQ Chatbot
+#  AI FAQ Chatbot
 
 A beginner-friendly FAQ chatbot about Artificial Intelligence, built with **Python**, **NLTK**, and **Scikit-learn**. It uses **TF-IDF Vectorization** and **Cosine Similarity** to intelligently match user questions to the most relevant answers in a dataset.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 CodeAlpha_FAQChatbot/
@@ -17,7 +17,7 @@ CodeAlpha_FAQChatbot/
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. **Load Data** — Reads AI-related questions and answers from `faq.csv`.
 2. **Preprocess Text** — Converts text to lowercase, removes punctuation, and tokenizes it using NLTK.
@@ -27,7 +27,7 @@ CodeAlpha_FAQChatbot/
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -68,7 +68,7 @@ python chatbot.py
 
 ---
 
-## 💬 Example Interaction
+##  Example Interaction
 
 ```
 ============================================================
@@ -99,7 +99,7 @@ Bot: Goodbye! Have a great day!
 
 ---
 
-## 📊 FAQ Dataset Topics
+##  FAQ Dataset Topics
 
 The `faq.csv` file contains **25 Q&A pairs** covering:
 
@@ -133,7 +133,7 @@ The `faq.csv` file contains **25 Q&A pairs** covering:
 
 ---
 
-## ⚙️ Key Technologies
+##  Key Technologies
 
 | Library | Purpose |
 |---------|---------|
@@ -144,7 +144,7 @@ The `faq.csv` file contains **25 Q&A pairs** covering:
 
 ---
 
-## 🔧 Customization
+##  Customization
 
 ### Add More Questions
 Simply add new rows to `faq.csv` following the format:
@@ -163,12 +163,12 @@ answer = get_best_answer(user_input, vectorizer, tfidf_matrix, answers, threshol
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source and free to use for learning and educational purposes.
 
 ---
 
-## 👤 Author
+##  Author
 
-Built as part of the **CodeAlpha Python Internship**.
+Built by Dhivyashree V-B.Tech "Artificial Intelligence & Data Science" as part of the **CodeAlpha Python Internship**.
